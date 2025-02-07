@@ -1,9 +1,9 @@
 <?php
 
-namespace Msmahon\LaravelQpdfPhpWrapper;
+namespace Rton\LaravelQpdfPhpWrapper;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Msmahon\QpdfPhpWrapper\Pdf;
+use Rton\QpdfPhpWrapper\Pdf;
 
 class ServiceProvider extends BaseServiceProvider
 {

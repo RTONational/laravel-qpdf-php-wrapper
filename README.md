@@ -9,11 +9,11 @@ copmoser require msmahon/laravel-qpdf-php-wrapper
 ## Laravel
 Add the service provider to the providers array in config/app.php
 ```
-Msmahon\laravel-qpdf-php-wrapper\ServiceProvider::class,
+Rton\laravel-qpdf-php-wrapper\ServiceProvider::class,
 ```
 Add to your facades:
 ```
-'Qpdf' => Msmahon\laravel-qpdf-php-wrapper\Facades\Qpdf.php,
+'Qpdf' => Rton\laravel-qpdf-php-wrapper\Facades\Qpdf.php,
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Qpdf::fileIsPdf($pathToFile);
 Qpdf::getNumberOfPages($pathToFile);
 
 // Rotate range of files in a pdf
-Qpdf::rotate($pathToFile, Msmahon\QpdfPhpWrapper\ENUMS\Rotation::RIGHT, '2-4');
+Qpdf::rotate($pathToFile, Rton\QpdfPhpWrapper\ENUMS\Rotation::RIGHT, '2-4');
 
 // Trim pdf to page range
 Qpdf::trimToRange($pathToFile, '4-z'); // "z" indicates end of file
