@@ -1,6 +1,6 @@
 <?php
 
-namespace Msmahon\LaravelQpdfPhpWrapper\Facades;
+namespace Rton\LaravelQpdfPhpWrapper\Facades;
 
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
