@@ -1,9 +1,9 @@
 # laravel-qpdf-php-wrapper
-A Laravel service provider for the msmahon/qpdf-php-wrapper package.
+A Laravel service provider for the rton/qpdf-php-wrapper package.
 
 ## Package Installation
 ```
-copmoser require msmahon/laravel-qpdf-php-wrapper
+copmoser require rton/laravel-qpdf-php-wrapper
 ```
 
 ## Laravel

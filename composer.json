@@ -1,7 +1,7 @@
 {
     "name": "rton/laravel-qpdf-php-wrapper",
     "type": "library",
-    "description": "A Laravel service provider for the msmahon/qpdf-php-wrapper package.",
+    "description": "A Laravel service provider for the rton/qpdf-php-wrapper package.",
     "keywords": ["laravel", "qpdf", "pdf"],
     "homepage": "https://github.com/RTONational/laravel-qpdf-php-wrapper",
     "license": "MIT",
@@ -24,6 +24,6 @@
     "require": {
         "php": "^8.1",
         "illuminate/support": "^9.0|^10.0|^11.0",
-        "msmahon/qpdf-php-wrapper": "^1.0"
+        "rton/qpdf-php-wrapper": "^1.0"
     }
 }
